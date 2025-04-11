@@ -71,6 +71,8 @@ autosave_on_changes false
 
 3. Download the IIOT SDK
 
+mkdir src
+cd src
 git clone --recursive https://github.com/OPCFoundation/UA-IIoT-StarterKit.git
 
 4. Start the build. And get a cup of coffee. or two...
@@ -85,8 +87,7 @@ There seems to be a bug that running them actually requires .net 8 and not 9.
 
 To run the publisher and subscriber with .net 8, change the DOTNET_HOME and PATH variables accordingly
 
-export DOTNET_HOME=$HOME/dotnet-8
-export PATH=$PATH/$HOME/dotnet-8
+There are two shell files run-publisher.sh and run-subscriber.sh that do this.
 
 The SDK seems to be ok with persistence being disabled in mosquitto. 
 
