@@ -106,6 +106,22 @@ uv pip install paho-mqtt
 uv pip install cryptography
 
 
+8. check ollama
+
+ollama run deepseek-r1:1.5b
+
+Initially, this will download the model, so it may take some time.
+
+Once the model is loaded, this should give you a '>>>' prompt, just type something, e.g. "Hello"
+
+>>> hello
+<think>
+
+</think>
+
+Hello! How can I assist you today? 😊
+
+Quit the prompt with CTRL-D
 
 
 
