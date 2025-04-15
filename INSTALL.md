@@ -8,7 +8,7 @@
 
 The entire demo can be run on a single linux host including a Raspberry Pi 5 with 8GB memory
 
-Optional: hardware acceleration for AI models, e.g. Nvidia CUDA, AMD ROCm 
+Optional: hardware acceleration for AI models, e.g. Nvidia CUDA, AMD ROCm. Nvidia Jetson Xavier and Orin also support running ollama locally.
 
 Optional: OPC UA capable controllers as data source
 
